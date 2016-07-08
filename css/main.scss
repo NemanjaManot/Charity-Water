@@ -1,0 +1,334 @@
+@import "whole_website";
+@import "variables";
+@import "_responsive-whole";
+@import "responsive-main";
+
+
+
+
+/*  ----- Article Header ------  */
+
+.headerArticle {
+	text-align: center;
+	.weBelieveImg {
+		width: 53%;
+		margin-top: 3%; 
+	}
+
+	.fullscreen-bg { 
+		position: absolute;
+		z-index: -100;
+		width: 100%;
+		height: 100vh;
+		overflow: hidden;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		.fullscreen-bg-video {
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			min-width: 100%;		   
+		}
+	}
+	button {
+		margin-top: 1%;
+		color: white;
+		border: 2px solid white;
+		@include transition(opacity .4s ease-out);
+		&:hover {
+			opacity: 0.7;
+		}
+	}
+}
+
+
+/*  ----- END Article header -----  */
+
+
+
+
+
+/*  ------ Give monthly ------  */
+
+.giveMonthly {
+	background: url("../img/giveMonthlyBackground.jpg") no-repeat;
+	background-size: cover;
+	background-position: center; 
+	margin-top: 0;
+	padding-top: 0;
+	.monthlyContent {
+		width: 30%;
+		margin: 0 auto;
+		padding: 10% 0;
+		p {
+			color: white;
+		}
+		.donateBox {
+			color: white;
+			padding: 5% 0;
+			border-radius: 7px;
+			background-color: rgba(165,170,166,0.8);
+			input {
+				width: 90%;
+				height: 55px;
+			}
+			button {
+				height: 55px;
+				width: 45%;
+			}
+			a {
+				color: white;
+				@include transition(opacity .4s ease-out); 
+				&:hover {
+					opacity: 0.7;
+				}
+			}
+			.linkBank {
+				span {
+					display: none;
+					position: absolute;
+					background-color: white;
+					color: green;
+					line-height: 25px;
+					padding: 1%;
+					border-radius: 7px;
+					border: 1px solid green;
+					text-transform: none;
+				}
+			}
+			.linkBank:hover span {
+				display: block;
+			}
+		}
+	}
+}
+.monthlyContentMobile {
+	display: none;
+}
+/*  ----- END Give monthly ------ */
+
+
+
+
+
+
+
+/*  ----- Two columns (100% and prove) ----- */
+
+.twoColumns {
+	padding-top: 5%;
+	width: 70%;
+	margin: 0 auto;
+	.six {
+		margin-top: 4%;
+	}
+	img {
+		width: 53%;
+	}
+	.boldP {
+		font-weight: bold;
+	}
+	a {
+		@include transition(color .3s ease-in);
+		color: $blue;
+		font-weight: bold;
+		&:hover {
+			color: $blueHover;
+		}
+	}
+}
+
+/*  ----- END Two columns (100% and prove) -------- */
+
+
+
+
+
+/*  ---- One+Two columns ----- */
+
+.onePlusTwoColumns {
+	max-width: 100%;
+	width: auto;
+	margin-top: 7%;
+	.yellowBack {
+		padding: 2% 0 1% 0;
+		background-color: $yellow;
+		a {
+			font-weight: bold;
+			color: $textColor;
+			border: 2px solid $textColor;
+			@include transition(opacity .4s ease-out);
+			&:hover {
+				opacity: 0.7;
+			}
+		}
+	}
+	.blueBack {
+		width: 50%;
+		.contentBlueBack {
+			margin: 7% auto;
+			width: 60%;
+			background-color: $blue;
+
+			h4 {
+				color: white;
+				font-weight: bold;
+			}
+			p {
+				text-align: justify;
+				color: white;
+			}
+			a {
+				border: 2px solid white;
+			}
+		}
+	}
+	.imageBack {
+		background-color: white;
+		background: url("../img/cleanWaterImage.jpg") no-repeat;
+	    background-size: cover;
+		width: 50%;
+ 		.imageBackContent {
+			padding: 35% 0;
+		} 
+	}
+ 	.rowBlue {
+		background-color: $blue;
+		@include display-flex;
+	} 
+}
+
+/*  ---- END One+Two columns ------ */
+
+
+
+
+
+/*  ------ Four columns ------- */
+
+.fourColumns {
+	width: 70%;
+	margin: 0 auto;
+	margin-top: 7%;
+	.columns {
+		border: 1px solid lightgray;
+		border-radius: 8px;
+	}
+	.hoverA {
+		position: relative;
+		img {
+			border-top-left-radius: 8px;
+			border-top-right-radius: 8px;
+		}
+		.didItColor { 
+			color: #a8a8a8;
+		}
+		.learnMoreTxt {
+			border-radius: 8px;
+			position: absolute;
+			top: 0;
+			left: 0;
+			bottom: 0;
+			right: 0;
+			background-color: rgba(0,0,0,0.8);
+			opacity: 0;
+			@include transition(opacity .3s ease-out);
+  			&:hover {
+  				opacity: 1;
+  				border: none;
+  			}
+  			p {
+  				position: relative;
+  				top: 40%;
+  				color: white;
+  			}
+		}
+	}
+}
+
+
+
+/*  ----- END Four Columns */
+
+
+
+
+/*  ----- Balloon ----- */
+.balloonArticle {
+	margin-top: 3%;
+	max-height: 370px;
+	overflow: hidden;
+	.balloon-shape {
+		fill: rgba(255,0,0,0.6);
+	}
+	.zutiShape {
+		fill: rgba(255,255,0,0.8);
+	}
+	.plaviShape {
+		fill: rgba(0,0,255,0.6)
+	}
+
+	.balloon-1, .balloon-4, .balloon-7 {
+		@extend .balloonAnimation1;
+	}
+	.balloon-2, .balloon-5, .balloon-8 {
+		@extend .balloonAnimation2;
+	}
+	.balloon-3, .balloon-6, .balloon-9, .balloon-10 {
+		@extend .balloonAnimation3;
+	}
+
+	.balloon-2 {
+		margin-left: -50px;
+	}
+	.balloon-5 {
+		margin-left: -100px;
+	}
+
+	.balloon-6 {
+		margin-left: -100px;
+	}
+	.balloon-10 {
+		margin-left: -70px;
+	}	
+}
+
+
+
+
+
+
+/*  ----- END Balloon ----- */
+
+
+
+/*  ---- Sponsor Background ---- */
+
+.sponsorArticle {
+	background: url("../img/sponsorBackground.jpg") no-repeat;
+	background-size: cover;
+	background-position: center;
+	.sponsorContent {
+		width: 35%;
+		margin: 0 auto;
+		padding: 10% 0;
+		h4,p,a {
+			color: white;
+		}
+		.mailSponsor {
+			@include transition(opacity .3s ease-out);
+			&:hover {
+				opacity: 0.7;
+			}
+		}
+	}
+}
+
+/*  ------ END Sponsor Background -------- */
+
+
+

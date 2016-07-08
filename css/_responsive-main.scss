@@ -1,0 +1,137 @@
+@import "variables";
+
+@media screen and (max-width: 1000px) {
+
+	/* ----Whole ----- */
+	p {
+		font-size: 90%;
+	}
+
+	/* ----Header Article ------ */
+ 	.headerArticle {
+ 		background: url("../img/headerMainBackgroundPhoneSize.jpg") no-repeat;
+		background-size: cover;
+    	background-position: center;
+		height: 100vh;
+		.fullscreen-bg {
+			display: none;
+		}
+ 		.weBelieveImg {
+			display: none;
+		} 
+		.weBelieveMobile {
+			display: block;
+			width: 53%;
+			margin: 0 auto;
+		}
+		.playVideo {
+			color: $textColor;
+			border: 2px solid $textColor;
+		}
+	} 
+
+
+	/* --- Give monthly ----  */
+	.giveMonthly {
+		.monthlyContent {
+			min-width: 60%;
+			.donateBox {
+				input {
+					max-height: 40px;
+				}
+				button {
+					max-height: 40px;
+				}
+			}
+		}
+	}
+
+	/*  ---- One+Two columns ----- */
+	.onePlusTwoColumns {
+		.idiLevo, .idiDesno {
+			text-align: center;
+		}
+		.blueBack {
+			min-width: 100%;
+		}
+		.imageBack {
+			min-width: 100%;
+		}
+	 	.rowBlue {
+			display: inline-block !important;
+		} 
+	}
+
+	/*  ----- Four Columns ------  */
+	.fourColumns {
+		min-width: 95%; 
+		.row {
+			a {
+				margin-bottom: 2%;
+			}
+		}
+	}
+
+	/*  ---- Sponsor Background ---- */
+	.sponsorContent {
+		min-width: 70%;
+	}
+}
+
+
+
+
+
+
+@media screen and (min-width: 1000px) {
+ 	.weBelieveMobile {
+		display: none;
+	} 
+	.logoNoText {
+		display: none;
+	}
+
+}
+
+
+
+@media screen and (max-width: 550px) {
+
+	/* ---- Give Monthly ---- */
+	.giveMonthly {
+		.monthlyContent {
+			min-width: 90%;
+			.donateBox {
+				min-width: 100%;
+				background-color: transparent;
+				input {
+					margin: 0 auto;
+					min-width: 95%;
+					max-height: 35px;
+					display: block;
+				}
+				button {
+					margin: 1% auto;
+					max-height: 35px;
+					min-width: 95%;
+					display: block;
+				}
+			}
+		}
+	}
+	/*  -----One+ Two columns ---- */
+	.fightDirty {
+		padding-bottom: 2%;
+	}
+	.contentBlueBack {
+		min-width: 90%;
+		a {
+			font-size: 80%;
+		}
+	}
+
+	/*  ---- Sponsor Background ---- */
+	.sponsorContent {
+		min-width: 90%;
+	}
+}

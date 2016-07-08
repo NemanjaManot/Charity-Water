@@ -1,0 +1,224 @@
+@import "variables";
+@import "whole_website";
+@import "responsive-whole";
+@import "responsive-ourWork";
+
+
+
+/*  ------- Header Article ------  */
+.headerArticle {
+	.logoNoText {
+		float: left;
+		padding-left: 10%;
+		width: 12%;
+		display: inline;
+		padding-top: 1%;
+	}
+	header {
+		a {
+			color: $textColor;
+			&:hover {
+				color: $textColor;
+			}
+		}
+	}
+	.buttonProvidan {
+		border: 1px solid $textColor;
+		color: $textColor;
+	}
+	.child {
+		a {
+			color: white;
+			&:hover {
+				color: white;
+			}
+		}
+	}
+}
+/*  ------- END Header Article ------  */
+
+
+
+/*  ----- How We Work ------ */
+
+.howWeWork {
+	.row {
+		width: 70%;
+		margin: 0 auto;
+		p {
+			color: white;
+		}
+		span {
+			font-weight: bold;
+		}
+	}
+	.approach {
+		background: 
+		linear-gradient( rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.75) ), 
+		url("../img/ourWork/howWeWork1.jpg") no-repeat;
+		background-size: 100% 100%;
+		padding: 8% 0;
+		&:hover {
+			background: linear-gradient( rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.40) ),
+			url("../img/ourWork/howWeWork1.jpg") no-repeat;
+			background-size: 100% 100%;
+		}
+	}
+	.solutions {
+		background: 
+		linear-gradient( rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.75) ), 
+		url("../img/ourWork/howWeWork2.jpg") no-repeat;
+		background-size: 100% 100%;
+		padding: 8% 0;
+		&:hover {
+			background: linear-gradient( rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.40) ),
+			url("../img/ourWork/howWeWork2.jpg") no-repeat;
+			background-size: 100% 100%;
+		}
+	}
+	.partners {
+		background: 
+		linear-gradient( rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.75) ), 
+		url("../img/ourWork/howWeWork3.jpg") no-repeat;
+		background-size: 100% 100%;
+		padding: 8% 0;
+		&:hover {
+			background: linear-gradient( rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.40) ),
+			url("../img/ourWork/howWeWork3.jpg") no-repeat;
+			background-size: 100% 100%;
+		}
+	}
+}
+
+
+/*  ----- END How We Work ------ */
+
+
+
+
+
+
+/*  ----- Our progress ----- */
+
+.ourProgress {
+	margin-top: 7%;
+	.row {
+		width: 70%;
+		margin: 0 auto;
+		background-color: #f4f5f0;
+		border: 1px solid #dfdfd7;
+		.progressContent {
+			width: 90%;
+			margin: 0 auto;
+			padding-top: 3%;
+		}
+		.three {
+			height: 120px;
+			border-right: 1px solid #dfdfd7;
+			h5 {
+				font-weight: bold;
+			}
+			.circle { 
+				background-color: $blue;
+				border-radius: 50%;
+				padding: 1px 10px;
+				font-size: 60%;
+				a {
+					color: white;
+				}
+			}
+		}	
+	}
+}
+
+/*  ----- END Our progress ----- */
+
+
+
+
+/*  ----- Where We Work ------  */
+
+.whereWork {
+	margin-top: 7%;
+	img {
+		width: 70%;
+	}
+}
+
+/*  ----- Where We Work ------  */
+
+
+
+
+/* ---- Stories ----- */
+
+.stories {
+	margin-top: 7%;
+	.row {
+		width: 70%;
+		margin: 0 auto;
+		p {
+			color: white;
+		}
+		span {
+			font-weight: bold;
+		}
+	}
+	.president {
+		background: 
+		linear-gradient( rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.75) ), 
+		url("../img/ourWork/stories1.jpg") no-repeat;
+		background-size: 100% 100%;
+		padding: 8% 0;
+		&:hover {
+			background: linear-gradient( rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.40) ),
+			url("../img/ourWork/stories1.jpg") no-repeat;
+			background-size: 100% 100%;
+		}
+	}
+	.doctor {
+		background: 
+		linear-gradient( rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.75) ), 
+		url("../img/ourWork/stories2.jpg") no-repeat;
+		background-size: 100% 100%;
+		padding: 8% 0;
+		&:hover {
+			background: linear-gradient( rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.40) ),
+			url("../img/ourWork/stories2.jpg") no-repeat;
+			background-size: 100% 100%;
+		}
+	}
+	.desert {
+		background: 
+		linear-gradient( rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.75) ), 
+		url("../img/ourWork/stories3.jpg") no-repeat;
+		background-size: 100% 100%;
+		padding: 8% 0;
+		&:hover {
+			background: linear-gradient( rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.40) ),
+			url("../img/ourWork/stories3.jpg") no-repeat;
+			background-size: 100% 100%;
+		}
+	}
+}
+
+/* ---- END Stories ----- */
+
+
+
+
+
+
+/*  ----- The Future ------  */
+
+.future {
+	margin-top: 7%;
+	.futureLinearGradient {
+	    @include background-linear-gradient(white,#e4f9f2);
+	}
+	.imageFuture {
+		min-width: 100%;
+	}
+}
+
+/*  ----- END The Future ------  */

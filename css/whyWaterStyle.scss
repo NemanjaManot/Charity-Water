@@ -1,0 +1,290 @@
+@import "variables";
+@import "whole_website";
+@import "responsive-whole";
+@import "responsive-whyWater";
+
+/*  ------ Whole page ----  */
+.h3Background {
+	width: 45%;
+	margin: 0 auto;
+}
+
+
+/*  ------- Header Article ------  */
+.headerArticle {
+	background: url("../img/whyWater/whyWaterBackground.jpg") no-repeat;
+	background-size: 100% 100%;
+	padding-bottom: 12%;
+	.logoNoText { 
+		float: left;
+		padding-left: 10%;
+		width: 12%;
+		display: inline;
+		padding-top: 1%;
+	}
+	header {
+		a {
+			color: $textColor;
+			&:hover {
+				color: $textColor;
+			}
+		}
+	}
+	.buttonProvidan {
+		border: 1px solid $textColor;
+		color: $textColor;
+	}
+	.child {
+		a {
+			color: white;
+			&:hover {
+				color: white;
+			}
+		}
+	}
+}
+/*  ------- END Header Article ------  */
+
+
+
+
+
+/*  ------ Milion People ------  */
+
+.million {
+	.h3Milion {
+		background: url("../img/whyWater/millionPeopleH.png") no-repeat;
+		background-size: 100% 100%;
+	}
+	.millionLinearGradient {
+		padding-top: 5%;
+	    @include background-linear-gradient(#ecebd7,#a9b9b6);
+	}
+	.imageMillion {
+		min-width: 100%;
+	}
+}
+
+/*  ------ END Milion People ------  */
+
+
+
+
+
+
+/*  ------- Clean Water & How we do -------  */
+
+.cleanWater {
+	margin-top: -3%;
+	.h3CleanWater {
+		background: url("../img/whyWater/cleanChangesH.png") no-repeat;
+		background-size: 100% 100%;		
+	}
+	.cleanLinearGradient {
+		padding-top: 7%;
+		@include background-linear-gradient(#c8a77e,#c3e0dc);
+	}
+
+	.row {
+		width: 70%;
+		margin: 0 auto;
+		text-align: left;
+		padding-top: 4%;
+		h6 {
+			font-weight: bold;
+			padding-top: 4%;
+		}
+		p {
+			font-style: italic;
+		}
+		img {
+			float: left;
+			width: 10%;
+			padding-right: 3%;
+			margin-left: -13%
+		}
+	}
+	.howDo {
+		padding-top: 5%;
+		.h3HowDo {
+			background: url("../img/whyWater/howDoH.png") no-repeat;
+			background-size: 100% 100%;					
+		}
+	}
+	.howDoImage {
+		min-width: 100%;
+	}
+}
+
+/*  ------- END Clean Water & How we do -------  */ 
+
+
+
+
+/*  ----- Access ------  */
+
+.access {
+	width: 70%;
+	margin: 0 auto;
+	padding-top: 5%;
+	.fourImage {
+		width: 100%;
+		margin: 0 auto;
+		div {
+			width: 25%;
+			float: left;
+			img {
+				width: 20%;
+				padding-right: 3%;	
+				display: inline-block;	
+			}
+			h6 {
+				font-weight: bold;
+				display: inline-block;
+			}
+		}
+	}
+}
+
+/*  ----- Access ------  */
+
+
+
+
+/*  --------- Hadjara ---------- */
+
+.hadjara {
+	@include display-flex;
+	.contentHadjara {
+		position: relative;
+		background-color: $redHadjara;
+		.arrowImg {
+			position: absolute;
+			top: 0;
+			left: 30%;
+			width: 8%;
+		}
+		.contentText {
+			text-align: left;
+			width: 70%;
+			margin: 25% auto;
+			p {
+				color: white;
+
+			}
+		}
+	}
+	.imageHadjara {
+		background-color: white;
+		background: url("../img/whyWater/meetHadjara.jpg") no-repeat;
+	    background-size: cover;
+	    width: 100%;
+	    .imageHadjaraContent {
+	    	padding: 35% 0;
+	    }
+	}
+}
+
+
+
+/*  --------- END Hadjara ---------- */
+
+
+
+
+
+/*  ------ Every Invested -------  */
+
+.everyInvested {
+	background-color: red;
+	background: url("../img/whyWater/everyInvested.jpg") no-repeat;
+	background-size: cover;
+	background-position: center;
+	.investedContent {
+		text-align: left;
+		width: 35%;
+		margin-left: 10%;
+		padding: 15% 0;
+		p {
+			font-weight: bold;
+		}
+	}
+}
+
+/*  ------ END Every Invested -------  */
+
+
+
+
+
+
+
+
+/*  ------------ Three Ways -----------  */
+
+.threeWays {
+	padding-top: 5%;
+	padding-bottom: 5%;
+	.row {
+		width: 70%;
+		margin: 0 auto;
+		@include display-flex;
+		.four {
+			cursor: pointer;
+			&:hover a {
+				padding: 12px 18px;
+			}
+		}
+	}
+	.allButtonWays {
+		padding: 9px 10px;
+		border-radius: 4px;
+		@include transition(all .2s ease-in-out);
+
+	}
+	.contentWays {
+		padding: 40% 0;
+		h6, a{
+			color: white;
+			font-weight: bold;
+		}
+	}
+	.donateWays {
+		background: 
+		linear-gradient( rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.30) ),
+		url("../img/whyWater/threeWays1.jpg") no-repeat;
+		background-size: 100% 100%;
+		background-position: center;	
+		padding: 15% 0;
+		a {
+			background-color: $blueLight;
+		}
+	}
+	.pledgeWays {
+		background: 
+		linear-gradient( rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.30) ),
+		url("../img/whyWater/threeWays2.jpg") no-repeat;
+		background-size: 100% 100%;
+		background-position: center;	
+		padding: 15% 0;
+		a {
+			background-color: $redHadjara;
+		}		
+	}
+	.fundraiseWays {
+		background: 
+		linear-gradient( rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.30) ),
+		url("../img/whyWater/threeWays3.jpg") no-repeat;
+		background-size: 100% 100%;
+		background-position: center;	
+		padding: 15% 0;
+		a {
+			background-color: $blueHover;
+		}		
+	}
+}
+
+/*  ------------ END Three Ways -----------  */
+
+
+

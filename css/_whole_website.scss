@@ -1,0 +1,354 @@
+@import "variables";
+
+/*  ------ Whole website style -------  */
+
+body {
+	font-family: 'Biryani', sans-serif;
+}
+
+.wrapper {
+	max-width: 100%;
+	margin: 0 auto;
+}
+article {
+	text-align: center;
+}
+img {
+	max-width: 100%;
+	height: auto;
+} 
+
+a {
+	text-decoration: none;
+}
+
+.paragraf {
+	margin: 2% auto;
+	width: 60%;
+}
+.paragraf2 {
+	margin: 2% auto 0 auto;
+	width: 60%;
+}
+p {
+	color: $textColor;
+	font-size: 110%;
+}
+h1,h2,h3,h4,h5,h6 {
+	color: $textColor;
+}
+
+.idiLevoFloat {
+	float: left;
+}
+
+.idiLevo {
+	text-align: left;
+}
+.idiDesno {
+	text-align: right;
+}
+
+.buttonProvidanCrni {
+	color: $textColor;
+	padding: 9px 10px;
+	border-radius: 4px;
+	border: 1px solid $textColor;
+	@include transition(opacity .4s ease-out);
+	&:hover {
+		color: $textColor; 
+		opacity: 0.8;
+	}
+}
+.buttonZuti {
+	color: white;
+	background-color: $yellow;
+	padding: 9px 10px;
+	border-radius: 4px;
+	@include transition(color .3s ease-in, background .3s ease-in);
+	&:hover {
+		color: white;
+		background: $yellow * 0.9; 
+	}
+}
+.buttonSvetloPlavi {
+	color: white;
+	background-color: $blueLight;
+	padding: 9px 10px;
+	border-radius: 4px;
+	@include transition(color .3s ease-in, background .3s ease-in);
+	&:hover {
+		color: white;
+		background: $blueLight * 1.1; 
+	} 
+}
+.buttonProvidanPlavi {
+	padding: 9px 10px;
+	border: 1px solid $blueHover;
+	border-radius: 4px;
+	color: $blueHover;
+	@include transition(color .3s ease-in, background .3s ease-in);
+}
+.buttonProvidan {
+	padding: 2px 8px;
+	border: 1px solid white;
+	border-radius: 4px;
+	color: white;
+}
+
+.buttonProvidanVeci {
+	padding: 9px 10px;
+	border-radius: 4px;
+	color: white;
+	border: 1px solid white;
+	@include transition(opacity .3s ease-in);
+	&:hover {
+		opacity: 0.8;
+		color: white;
+	}
+}
+
+.buttonPlavi {
+	padding: 9px 10px;
+	border-radius: 4px;
+	color: white;
+	background-color: $blue;
+	border: none;
+	@include transition(color .3s ease-in, background .3s ease-in);
+	&:hover {
+		color: white;
+		background-color: $blueHover;
+	}
+}
+
+.hrStyle {
+	 border: 0; 
+	 height: 1px; 
+	 background-image: linear-gradient(to right, rgba(132, 132, 132, 0), rgba(132, 132, 132, 0.75), rgba(132, 132, 132, 0));
+}
+
+
+
+/* ---- END -----  */
+
+
+
+
+
+/*  ------ Header ------  */
+
+.logoImg {
+	float: left;
+	padding-left: 10%;
+	width: 12%;
+	display: inline;
+	padding-top: 1%;
+}
+header {
+	padding-top: 1%;
+	ul {
+		.whyWater {
+			margin-left: 4%;
+		}
+		li {
+			display: inline-block;
+			margin: 0 1% 0 1%;
+ 			a {
+				color: white;
+				font-size: 85%;
+				@include transition(opacity .4s ease-out);
+				&:hover {
+					color: white;
+					opacity: 0.7;
+				}
+			}
+		}
+	}
+
+	.rightNav {
+		.donateAndFundraise {
+			height: 80px;
+		}
+		.child {
+			position: absolute;
+			display: none;
+			background: rgba(13,13,13, 0.8);
+			li {
+				line-height: 25px;
+				text-align: left;
+				padding: 5%;
+				margin: 0;
+				display: block;
+				&:hover {
+					background: rgba(13,13,13, 1);
+				}
+				a {
+					&:hover {
+						opacity: 1;
+					}
+				}
+			}
+		}
+	}
+		.parent li:hover .child{
+  			display: block;
+  			padding: 0%;
+	}
+}
+
+	/* ---- Modal Navigation ----- */
+.modalNavigation {
+	display: none;
+	height: 100vh;
+	overflow: scroll;
+	width: 230px;
+	position: fixed;
+	z-index: 20;
+	top: 0;
+	right: 0;
+	padding: 5% 0;
+	background-color: $textColorDarker;
+	.signInButton {
+		padding: 2% 30%;
+		background-color: $textColor;
+		border: 1px solid black;
+		border-radius: 5px;
+	}
+	a {
+		color: white;
+	}
+	ul { 
+		margin-top: 8%;
+		list-style: none;
+		text-align: left;
+		a {
+			display: inline-block;
+			width: 100%;
+			padding-left: 3%;
+			padding-top: 10px;
+			padding-bottom: 10px;
+			border-bottom: 1px solid black;
+			@include transition(background .2s ease-in);
+			&:hover {
+				background-color: $textColor;
+			}
+		}
+	}
+}
+	/*  ---- END Modal Navigation ---- */
+
+/*  ------ END Header -----  */
+
+
+
+
+
+
+/*  ----- pre Futer (4 columns) ---- */
+
+.preFooter {
+	margin: 0 auto;
+	margin-top: 5%;
+	width: 80%;
+	font-size: 90%;
+	a {
+		color: $lightGray;
+		@include transition(opacity .3s ease-out);
+		&:hover {
+			opacity: 0.7;
+		}
+	}
+}
+/*  ----- END pre futer (4 columns) */
+
+
+
+
+
+
+/*  ---- Footer ----- */
+
+footer {
+	width: 80%; 
+	margin: 0 auto;
+	text-align: center;
+	font-size: 90%;
+	p {
+		display: inline-block;
+		color: $lightGray;
+	}
+	a {
+		color: $lightGray;
+		@include transition(opacity .3s ease-out);
+		&:hover {
+			opacity: 0.7;
+			color: $lightGray;
+		}
+	}
+	.blueLink {
+		color: $blue;
+		@include transition(color .3s ease-in);
+		&:hover {
+			color: $blueHover;
+		}
+	}
+	.socialIcon {
+		padding-bottom: 5%;
+		a {
+			padding: 0 1%;
+		}
+	}
+}
+/*  ---------- END Footer -------  */
+
+
+
+/* width="640" height="360" */
+
+
+
+/*  -------- Play Video ------- */
+
+.videoHide {
+	display: none;
+	height: 100vh;
+	position: fixed;
+	z-index: 200;
+	top: 0;
+	right: 0;
+	left: 0;
+	background: rgba(15, 15, 15, 0.9); 
+	.videoContent {
+		margin-top: 3%;
+		iframe {
+			width: 840px;
+			height: 560px;
+		}
+	}
+	.exitVideoHide {
+		font-weight: bold;
+		color: white;
+		font-size: 150%;
+		padding: 2%;
+		position: absolute;
+		right: 1%;
+		top: 1%;
+		cursor: pointer;
+		@include transition(all .3s ease-in);
+		&:hover {
+			font-size: 180%;
+		}
+	}
+}
+
+/*  -------- END Play Video ------- */
+
+
+
+
+
+/*  ------ Clearfix for floating fix ----------- */
+
+.clearfix {
+	clear: both;
+}

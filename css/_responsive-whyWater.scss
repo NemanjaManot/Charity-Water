@@ -1,0 +1,166 @@
+@import "variables";
+
+@media screen and (max-width: 1000px) {
+
+	/* -- Whole page -- */
+	.logoNoText {
+		min-width: 20%;
+	}
+	.h3Background {
+		min-width: 75%;
+	}
+
+
+	/*  -- Header Article -- */
+	.headerArticle {
+		h1 {
+			padding-top: 5%;
+		}
+	}
+
+
+	/* -- Clean Water & How we do -- */
+	.cleanWater {
+		.row {
+			min-width: 87%;
+		}
+	}
+
+
+	/*  -- Access -- */
+	.access {
+		min-width: 90%;
+		h3 {
+			font-size: 160%;
+		}
+		.fourImage {
+			h6 {
+				display: inline-block;
+				font-size: 70%;
+			}
+		}
+	}
+
+	/* -- Three Ways */
+	.threeWays {
+		.row {
+			min-width: 90%;
+		}
+	}
+
+}
+
+
+@media screen and (max-width: 750px) {
+
+	/*  -- Hadjara -- */
+	.hadjara {
+		display: inline-block !important;
+	}
+	.contentText {
+		margin: 0 auto !important;
+		padding: 12% 0;
+	}
+
+	/*  -- Every Invested --  */
+	.everyInvested {
+		.investedContent {
+			text-align: center !important;
+			min-width: 80%; 
+			margin-left: 0 auto;
+			p {
+				font-size: 85%; 
+			}
+			h3 {
+				font-size: 140%;
+			}
+		}
+	}
+
+}
+
+
+
+
+@media screen and (max-width: 550px) {
+
+	/* -- Whole page -- */
+	.logoNoText {
+		min-width: 27%;
+	}
+	.h3Background {
+		min-width: 95%;
+		font-size: 140%;
+		font-weight: bold;
+	}
+
+	/*  -- Header Article -- */
+	.headerArticle {
+		h1 {
+			font-size: 200%;
+		}
+		h5 {
+			font-size: 90%;
+			width: 80%;
+			margin: 0 auto;
+			padding-bottom: 3%;
+		}
+		.buttonPlavi {
+			font-size: 80%;
+		}
+	}
+
+
+	/* -- Clean Water & How we do -- */
+	.cleanWater {
+		.row {
+			min-width: 70%;
+		}
+	}
+
+	/*  -- Access -- */
+	.access {
+		min-width: 95%;
+		h3 {
+			font-size: 150%;
+		}
+		.fourImage {
+			img {
+				min-width: 30%;
+			}
+			h6 {
+				display: none !important;
+			}
+		}
+	}
+
+	/*  -- Hadjara -- */
+	.contentText {
+		padding: 10% 0;
+		min-width: 90%; 
+	}
+
+
+	/*  -- Every Invested --  */
+	.everyInvested {
+		.buttonProvidanCrni {
+			font-weight: bold;
+			border: 2px solid $textColor;
+		}
+	}
+
+	/* -- Three Ways */
+	.threeWays {
+		.row {
+			min-width: 80%;
+			display: inline-block !important;
+			.four {
+				margin-bottom: 5%;
+			}
+		}
+		.contentWays {
+			padding: 0 5%;
+		}
+	}
+
+}

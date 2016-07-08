@@ -1,0 +1,1678 @@
+/*-------- Boje ------- */
+/*  ------ END Boje -----  */
+/* ------ Transition --------*/
+/*  --- END Transition ---  */
+/*  ------- Linear Gradient -------  */
+/*  ------- END Linear Gradient -------  */
+/*  ------ Display Flex ------- */
+/*  ------ END Display Flex ------- */
+/*  ----- Class for Balloon animation ----- */
+.balloonAnimationAll, .balloonAnimation1, .balloonArticle .balloon-1, .balloonArticle .balloon-4, .balloonArticle .balloon-7, .balloonAnimation2, .balloonArticle .balloon-2, .balloonArticle .balloon-5, .balloonArticle .balloon-8, .balloonAnimation3, .balloonArticle .balloon-3, .balloonArticle .balloon-6, .balloonArticle .balloon-9, .balloonArticle .balloon-10 {
+  position: relative;
+  -webkit-animation-duration: 3s;
+  /* Chrome, Safari, Opera */
+  animation-duration: 3s;
+  -webkit-animation-iteration-count: infinite;
+  /* Chrome, Safari, Opera */
+  animation-iteration-count: infinite;
+}
+
+/* First Animation */
+.balloonAnimation1, .balloonArticle .balloon-1, .balloonArticle .balloon-4, .balloonArticle .balloon-7 {
+  -webkit-animation-name: balloon;
+  /* Chrome, Safari, Opera */
+  animation-name: balloon;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes balloon {
+  0% {
+    left: 0px;
+    top: 0px;
+  }
+
+  25% {
+    left: 4px;
+    top: 0px;
+  }
+
+  50% {
+    left: 7px;
+    top: 3px;
+  }
+
+  75% {
+    left: 0px;
+    top: 7px;
+  }
+
+  100% {
+    left: 0px;
+    top: 0px;
+  }
+}
+/* Standard syntax */
+@keyframes balloon {
+  0% {
+    left: 0px;
+    top: 0px;
+  }
+
+  25% {
+    left: 4px;
+    top: 0px;
+  }
+
+  50% {
+    left: 7px;
+    top: 3px;
+  }
+
+  75% {
+    left: 0px;
+    top: 7px;
+  }
+
+  100% {
+    left: 0px;
+    top: 0px;
+  }
+}
+/* Second Animation */
+.balloonAnimation2, .balloonArticle .balloon-2, .balloonArticle .balloon-5, .balloonArticle .balloon-8 {
+  -webkit-animation-name: balloonTwo;
+  /* Chrome, Safari, Opera */
+  animation-name: balloonTwo;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes balloonTwo {
+  0% {
+    left: 0px;
+    top: 0px;
+  }
+
+  25% {
+    left: 0px;
+    top: 4px;
+  }
+
+  50% {
+    left: 3px;
+    top: 7px;
+  }
+
+  75% {
+    left: 7px;
+    top: 0px;
+  }
+
+  100% {
+    left: 0px;
+    top: 0px;
+  }
+}
+/* Standard syntax */
+@keyframes balloonTwo {
+  0% {
+    left: 0px;
+    top: 0px;
+  }
+
+  25% {
+    left: 0px;
+    top: 4px;
+  }
+
+  50% {
+    left: 3px;
+    top: 7px;
+  }
+
+  75% {
+    left: 7px;
+    top: 0px;
+  }
+
+  100% {
+    left: 0px;
+    top: 0px;
+  }
+}
+/* Third Animation */
+.balloonAnimation3, .balloonArticle .balloon-3, .balloonArticle .balloon-6, .balloonArticle .balloon-9, .balloonArticle .balloon-10 {
+  -webkit-animation-name: balloonThree;
+  /* Chrome, Safari, Opera */
+  animation-name: balloonThree;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes balloonThree {
+  0% {
+    left: 0px;
+    top: 0px;
+  }
+
+  25% {
+    left: 2px;
+    top: 4px;
+  }
+
+  50% {
+    left: 5px;
+    top: 5px;
+  }
+
+  75% {
+    left: 2px;
+    top: 5px;
+  }
+
+  100% {
+    left: 0px;
+    top: 0px;
+  }
+}
+/* Standard syntax */
+@keyframes balloonThree {
+  0% {
+    left: 0px;
+    top: 0px;
+  }
+
+  25% {
+    left: 2px;
+    top: 4px;
+  }
+
+  50% {
+    left: 5px;
+    top: 5px;
+  }
+
+  75% {
+    left: 2px;
+    top: 5px;
+  }
+
+  100% {
+    left: 0px;
+    top: 0px;
+  }
+}
+/*  ------ END Class for Balloon animation ------ */
+/*  ------ Whole website style -------  */
+body {
+  font-family: 'Biryani', sans-serif;
+}
+
+.wrapper {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+article {
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.paragraf {
+  margin: 2% auto;
+  width: 60%;
+}
+
+.paragraf2 {
+  margin: 2% auto 0 auto;
+  width: 60%;
+}
+
+p {
+  color: #292727;
+  font-size: 110%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #292727;
+}
+
+.idiLevoFloat {
+  float: left;
+}
+
+.idiLevo {
+  text-align: left;
+}
+
+.idiDesno {
+  text-align: right;
+}
+
+.buttonProvidanCrni {
+  color: #292727;
+  padding: 9px 10px;
+  border-radius: 4px;
+  border: 1px solid #292727;
+  -webkit-transition: opacity 0.4s ease-out;
+  -moz-transition: opacity 0.4s ease-out;
+  -ms-transition: opacity 0.4s ease-out;
+  -o-transition: opacity 0.4s ease-out;
+  transition: opacity 0.4s ease-out;
+}
+.buttonProvidanCrni:hover {
+  color: #292727;
+  opacity: 0.8;
+}
+
+.buttonZuti {
+  color: white;
+  background-color: #efd213;
+  padding: 9px 10px;
+  border-radius: 4px;
+  -webkit-transition: color 0.3s ease-in, background 0.3s ease-in;
+  -moz-transition: color 0.3s ease-in, background 0.3s ease-in;
+  -ms-transition: color 0.3s ease-in, background 0.3s ease-in;
+  -o-transition: color 0.3s ease-in, background 0.3s ease-in;
+  transition: color 0.3s ease-in, background 0.3s ease-in;
+}
+.buttonZuti:hover {
+  color: white;
+  background: #d7bd11;
+}
+
+.buttonSvetloPlavi {
+  color: white;
+  background-color: #8ed4cc;
+  padding: 9px 10px;
+  border-radius: 4px;
+  -webkit-transition: color 0.3s ease-in, background 0.3s ease-in;
+  -moz-transition: color 0.3s ease-in, background 0.3s ease-in;
+  -ms-transition: color 0.3s ease-in, background 0.3s ease-in;
+  -o-transition: color 0.3s ease-in, background 0.3s ease-in;
+  transition: color 0.3s ease-in, background 0.3s ease-in;
+}
+.buttonSvetloPlavi:hover {
+  color: white;
+  background: #9ce9e0;
+}
+
+.buttonProvidanPlavi {
+  padding: 9px 10px;
+  border: 1px solid #70bbf7;
+  border-radius: 4px;
+  color: #70bbf7;
+  -webkit-transition: color 0.3s ease-in, background 0.3s ease-in;
+  -moz-transition: color 0.3s ease-in, background 0.3s ease-in;
+  -ms-transition: color 0.3s ease-in, background 0.3s ease-in;
+  -o-transition: color 0.3s ease-in, background 0.3s ease-in;
+  transition: color 0.3s ease-in, background 0.3s ease-in;
+}
+
+.buttonProvidan {
+  padding: 2px 8px;
+  border: 1px solid white;
+  border-radius: 4px;
+  color: white;
+}
+
+.buttonProvidanVeci {
+  padding: 9px 10px;
+  border-radius: 4px;
+  color: white;
+  border: 1px solid white;
+  -webkit-transition: opacity 0.3s ease-in;
+  -moz-transition: opacity 0.3s ease-in;
+  -ms-transition: opacity 0.3s ease-in;
+  -o-transition: opacity 0.3s ease-in;
+  transition: opacity 0.3s ease-in;
+}
+.buttonProvidanVeci:hover {
+  opacity: 0.8;
+  color: white;
+}
+
+.buttonPlavi {
+  padding: 9px 10px;
+  border-radius: 4px;
+  color: white;
+  background-color: #369ff4;
+  border: none;
+  -webkit-transition: color 0.3s ease-in, background 0.3s ease-in;
+  -moz-transition: color 0.3s ease-in, background 0.3s ease-in;
+  -ms-transition: color 0.3s ease-in, background 0.3s ease-in;
+  -o-transition: color 0.3s ease-in, background 0.3s ease-in;
+  transition: color 0.3s ease-in, background 0.3s ease-in;
+}
+.buttonPlavi:hover {
+  color: white;
+  background-color: #70bbf7;
+}
+
+.hrStyle {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(132, 132, 132, 0), rgba(132, 132, 132, 0.75), rgba(132, 132, 132, 0));
+}
+
+/* ---- END -----  */
+/*  ------ Header ------  */
+.logoImg {
+  float: left;
+  padding-left: 10%;
+  width: 12%;
+  display: inline;
+  padding-top: 1%;
+}
+
+header {
+  padding-top: 1%;
+}
+header ul .whyWater {
+  margin-left: 4%;
+}
+header ul li {
+  display: inline-block;
+  margin: 0 1% 0 1%;
+}
+header ul li a {
+  color: white;
+  font-size: 85%;
+  -webkit-transition: opacity 0.4s ease-out;
+  -moz-transition: opacity 0.4s ease-out;
+  -ms-transition: opacity 0.4s ease-out;
+  -o-transition: opacity 0.4s ease-out;
+  transition: opacity 0.4s ease-out;
+}
+header ul li a:hover {
+  color: white;
+  opacity: 0.7;
+}
+header .rightNav .donateAndFundraise {
+  height: 80px;
+}
+header .rightNav .child {
+  position: absolute;
+  display: none;
+  background: rgba(13, 13, 13, 0.8);
+}
+header .rightNav .child li {
+  line-height: 25px;
+  text-align: left;
+  padding: 5%;
+  margin: 0;
+  display: block;
+}
+header .rightNav .child li:hover {
+  background: #0d0d0d;
+}
+header .rightNav .child li a:hover {
+  opacity: 1;
+}
+header .parent li:hover .child {
+  display: block;
+  padding: 0%;
+}
+
+/* ---- Modal Navigation ----- */
+.modalNavigation {
+  display: none;
+  height: 100vh;
+  overflow: scroll;
+  width: 230px;
+  position: fixed;
+  z-index: 20;
+  top: 0;
+  right: 0;
+  padding: 5% 0;
+  background-color: #151414;
+}
+.modalNavigation .signInButton {
+  padding: 2% 30%;
+  background-color: #292727;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.modalNavigation a {
+  color: white;
+}
+.modalNavigation ul {
+  margin-top: 8%;
+  list-style: none;
+  text-align: left;
+}
+.modalNavigation ul a {
+  display: inline-block;
+  width: 100%;
+  padding-left: 3%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid black;
+  -webkit-transition: background 0.2s ease-in;
+  -moz-transition: background 0.2s ease-in;
+  -ms-transition: background 0.2s ease-in;
+  -o-transition: background 0.2s ease-in;
+  transition: background 0.2s ease-in;
+}
+.modalNavigation ul a:hover {
+  background-color: #292727;
+}
+
+/*  ---- END Modal Navigation ---- */
+/*  ------ END Header -----  */
+/*  ----- pre Futer (4 columns) ---- */
+.preFooter {
+  margin: 0 auto;
+  margin-top: 5%;
+  width: 80%;
+  font-size: 90%;
+}
+.preFooter a {
+  color: #71716c;
+  -webkit-transition: opacity 0.3s ease-out;
+  -moz-transition: opacity 0.3s ease-out;
+  -ms-transition: opacity 0.3s ease-out;
+  -o-transition: opacity 0.3s ease-out;
+  transition: opacity 0.3s ease-out;
+}
+.preFooter a:hover {
+  opacity: 0.7;
+}
+
+/*  ----- END pre futer (4 columns) */
+/*  ---- Footer ----- */
+footer {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 90%;
+}
+footer p {
+  display: inline-block;
+  color: #71716c;
+}
+footer a {
+  color: #71716c;
+  -webkit-transition: opacity 0.3s ease-out;
+  -moz-transition: opacity 0.3s ease-out;
+  -ms-transition: opacity 0.3s ease-out;
+  -o-transition: opacity 0.3s ease-out;
+  transition: opacity 0.3s ease-out;
+}
+footer a:hover {
+  opacity: 0.7;
+  color: #71716c;
+}
+footer .blueLink {
+  color: #369ff4;
+  -webkit-transition: color 0.3s ease-in;
+  -moz-transition: color 0.3s ease-in;
+  -ms-transition: color 0.3s ease-in;
+  -o-transition: color 0.3s ease-in;
+  transition: color 0.3s ease-in;
+}
+footer .blueLink:hover {
+  color: #70bbf7;
+}
+footer .socialIcon {
+  padding-bottom: 5%;
+}
+footer .socialIcon a {
+  padding: 0 1%;
+}
+
+/*  ---------- END Footer -------  */
+/* width="640" height="360" */
+/*  -------- Play Video ------- */
+.videoHide {
+  display: none;
+  height: 100vh;
+  position: fixed;
+  z-index: 200;
+  top: 0;
+  right: 0;
+  left: 0;
+  background: rgba(15, 15, 15, 0.9);
+}
+.videoHide .videoContent {
+  margin-top: 3%;
+}
+.videoHide .videoContent iframe {
+  width: 840px;
+  height: 560px;
+}
+.videoHide .exitVideoHide {
+  font-weight: bold;
+  color: white;
+  font-size: 150%;
+  padding: 2%;
+  position: absolute;
+  right: 1%;
+  top: 1%;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  -ms-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+.videoHide .exitVideoHide:hover {
+  font-size: 180%;
+}
+
+/*  -------- END Play Video ------- */
+/*  ------ Clearfix for floating fix ----------- */
+.clearfix {
+  clear: both;
+}
+
+/*-------- Boje ------- */
+/*  ------ END Boje -----  */
+/* ------ Transition --------*/
+/*  --- END Transition ---  */
+/*  ------- Linear Gradient -------  */
+/*  ------- END Linear Gradient -------  */
+/*  ------ Display Flex ------- */
+/*  ------ END Display Flex ------- */
+/*  ----- Class for Balloon animation ----- */
+.balloonAnimationAll, .balloonAnimation1, .balloonArticle .balloon-1, .balloonArticle .balloon-4, .balloonArticle .balloon-7, .balloonAnimation2, .balloonArticle .balloon-2, .balloonArticle .balloon-5, .balloonArticle .balloon-8, .balloonAnimation3, .balloonArticle .balloon-3, .balloonArticle .balloon-6, .balloonArticle .balloon-9, .balloonArticle .balloon-10 {
+  position: relative;
+  -webkit-animation-duration: 3s;
+  /* Chrome, Safari, Opera */
+  animation-duration: 3s;
+  -webkit-animation-iteration-count: infinite;
+  /* Chrome, Safari, Opera */
+  animation-iteration-count: infinite;
+}
+
+/* First Animation */
+.balloonAnimation1, .balloonArticle .balloon-1, .balloonArticle .balloon-4, .balloonArticle .balloon-7 {
+  -webkit-animation-name: balloon;
+  /* Chrome, Safari, Opera */
+  animation-name: balloon;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes balloon {
+  0% {
+    left: 0px;
+    top: 0px;
+  }
+
+  25% {
+    left: 4px;
+    top: 0px;
+  }
+
+  50% {
+    left: 7px;
+    top: 3px;
+  }
+
+  75% {
+    left: 0px;
+    top: 7px;
+  }
+
+  100% {
+    left: 0px;
+    top: 0px;
+  }
+}
+/* Standard syntax */
+@keyframes balloon {
+  0% {
+    left: 0px;
+    top: 0px;
+  }
+
+  25% {
+    left: 4px;
+    top: 0px;
+  }
+
+  50% {
+    left: 7px;
+    top: 3px;
+  }
+
+  75% {
+    left: 0px;
+    top: 7px;
+  }
+
+  100% {
+    left: 0px;
+    top: 0px;
+  }
+}
+/* Second Animation */
+.balloonAnimation2, .balloonArticle .balloon-2, .balloonArticle .balloon-5, .balloonArticle .balloon-8 {
+  -webkit-animation-name: balloonTwo;
+  /* Chrome, Safari, Opera */
+  animation-name: balloonTwo;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes balloonTwo {
+  0% {
+    left: 0px;
+    top: 0px;
+  }
+
+  25% {
+    left: 0px;
+    top: 4px;
+  }
+
+  50% {
+    left: 3px;
+    top: 7px;
+  }
+
+  75% {
+    left: 7px;
+    top: 0px;
+  }
+
+  100% {
+    left: 0px;
+    top: 0px;
+  }
+}
+/* Standard syntax */
+@keyframes balloonTwo {
+  0% {
+    left: 0px;
+    top: 0px;
+  }
+
+  25% {
+    left: 0px;
+    top: 4px;
+  }
+
+  50% {
+    left: 3px;
+    top: 7px;
+  }
+
+  75% {
+    left: 7px;
+    top: 0px;
+  }
+
+  100% {
+    left: 0px;
+    top: 0px;
+  }
+}
+/* Third Animation */
+.balloonAnimation3, .balloonArticle .balloon-3, .balloonArticle .balloon-6, .balloonArticle .balloon-9, .balloonArticle .balloon-10 {
+  -webkit-animation-name: balloonThree;
+  /* Chrome, Safari, Opera */
+  animation-name: balloonThree;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes balloonThree {
+  0% {
+    left: 0px;
+    top: 0px;
+  }
+
+  25% {
+    left: 2px;
+    top: 4px;
+  }
+
+  50% {
+    left: 5px;
+    top: 5px;
+  }
+
+  75% {
+    left: 2px;
+    top: 5px;
+  }
+
+  100% {
+    left: 0px;
+    top: 0px;
+  }
+}
+/* Standard syntax */
+@keyframes balloonThree {
+  0% {
+    left: 0px;
+    top: 0px;
+  }
+
+  25% {
+    left: 2px;
+    top: 4px;
+  }
+
+  50% {
+    left: 5px;
+    top: 5px;
+  }
+
+  75% {
+    left: 2px;
+    top: 5px;
+  }
+
+  100% {
+    left: 0px;
+    top: 0px;
+  }
+}
+/*  ------ END Class for Balloon animation ------ */
+/*-------- Boje ------- */
+/*  ------ END Boje -----  */
+/* ------ Transition --------*/
+/*  --- END Transition ---  */
+/*  ------- Linear Gradient -------  */
+/*  ------- END Linear Gradient -------  */
+/*  ------ Display Flex ------- */
+/*  ------ END Display Flex ------- */
+/*  ----- Class for Balloon animation ----- */
+.balloonAnimationAll, .balloonAnimation1, .balloonArticle .balloon-1, .balloonArticle .balloon-4, .balloonArticle .balloon-7, .balloonAnimation2, .balloonArticle .balloon-2, .balloonArticle .balloon-5, .balloonArticle .balloon-8, .balloonAnimation3, .balloonArticle .balloon-3, .balloonArticle .balloon-6, .balloonArticle .balloon-9, .balloonArticle .balloon-10 {
+  position: relative;
+  -webkit-animation-duration: 3s;
+  /* Chrome, Safari, Opera */
+  animation-duration: 3s;
+  -webkit-animation-iteration-count: infinite;
+  /* Chrome, Safari, Opera */
+  animation-iteration-count: infinite;
+}
+
+/* First Animation */
+.balloonAnimation1, .balloonArticle .balloon-1, .balloonArticle .balloon-4, .balloonArticle .balloon-7 {
+  -webkit-animation-name: balloon;
+  /* Chrome, Safari, Opera */
+  animation-name: balloon;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes balloon {
+  0% {
+    left: 0px;
+    top: 0px;
+  }
+
+  25% {
+    left: 4px;
+    top: 0px;
+  }
+
+  50% {
+    left: 7px;
+    top: 3px;
+  }
+
+  75% {
+    left: 0px;
+    top: 7px;
+  }
+
+  100% {
+    left: 0px;
+    top: 0px;
+  }
+}
+/* Standard syntax */
+@keyframes balloon {
+  0% {
+    left: 0px;
+    top: 0px;
+  }
+
+  25% {
+    left: 4px;
+    top: 0px;
+  }
+
+  50% {
+    left: 7px;
+    top: 3px;
+  }
+
+  75% {
+    left: 0px;
+    top: 7px;
+  }
+
+  100% {
+    left: 0px;
+    top: 0px;
+  }
+}
+/* Second Animation */
+.balloonAnimation2, .balloonArticle .balloon-2, .balloonArticle .balloon-5, .balloonArticle .balloon-8 {
+  -webkit-animation-name: balloonTwo;
+  /* Chrome, Safari, Opera */
+  animation-name: balloonTwo;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes balloonTwo {
+  0% {
+    left: 0px;
+    top: 0px;
+  }
+
+  25% {
+    left: 0px;
+    top: 4px;
+  }
+
+  50% {
+    left: 3px;
+    top: 7px;
+  }
+
+  75% {
+    left: 7px;
+    top: 0px;
+  }
+
+  100% {
+    left: 0px;
+    top: 0px;
+  }
+}
+/* Standard syntax */
+@keyframes balloonTwo {
+  0% {
+    left: 0px;
+    top: 0px;
+  }
+
+  25% {
+    left: 0px;
+    top: 4px;
+  }
+
+  50% {
+    left: 3px;
+    top: 7px;
+  }
+
+  75% {
+    left: 7px;
+    top: 0px;
+  }
+
+  100% {
+    left: 0px;
+    top: 0px;
+  }
+}
+/* Third Animation */
+.balloonAnimation3, .balloonArticle .balloon-3, .balloonArticle .balloon-6, .balloonArticle .balloon-9, .balloonArticle .balloon-10 {
+  -webkit-animation-name: balloonThree;
+  /* Chrome, Safari, Opera */
+  animation-name: balloonThree;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes balloonThree {
+  0% {
+    left: 0px;
+    top: 0px;
+  }
+
+  25% {
+    left: 2px;
+    top: 4px;
+  }
+
+  50% {
+    left: 5px;
+    top: 5px;
+  }
+
+  75% {
+    left: 2px;
+    top: 5px;
+  }
+
+  100% {
+    left: 0px;
+    top: 0px;
+  }
+}
+/* Standard syntax */
+@keyframes balloonThree {
+  0% {
+    left: 0px;
+    top: 0px;
+  }
+
+  25% {
+    left: 2px;
+    top: 4px;
+  }
+
+  50% {
+    left: 5px;
+    top: 5px;
+  }
+
+  75% {
+    left: 2px;
+    top: 5px;
+  }
+
+  100% {
+    left: 0px;
+    top: 0px;
+  }
+}
+/*  ------ END Class for Balloon animation ------ */
+@media screen and (max-width: 1000px) {
+  /* ----Whole ----- */
+  p {
+    font-size: 90%;
+  }
+
+  .paragraf, .paragraf2 {
+    min-width: 80%;
+  }
+
+  /*  -- Video Hide -- */
+  .videoContent {
+    margin-top: 7% !important;
+  }
+  .videoContent iframe {
+    width: 700px !important;
+    height: 440px !important;
+  }
+
+  /* ----Header Article ------ */
+  .headerArticle .logoImg {
+    display: none;
+  }
+  .headerArticle .logoNoText {
+    float: left;
+    max-width: 30%;
+    padding: 1% 0 0 2%;
+  }
+  .headerArticle .menuIcon {
+    float: right;
+    padding: 1% 4% 0 0;
+  }
+  .headerArticle header {
+    display: none;
+  }
+  .headerArticle .rightNav {
+    margin-top: 0;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .menuIcon {
+    display: none;
+  }
+}
+@media screen and (max-width: 750px) {
+  /*  -- Video Hide -- */
+  .videoContent {
+    margin-top: 10% !important;
+  }
+  .videoContent iframe {
+    width: 540px !important;
+    height: 350px !important;
+  }
+}
+@media screen and (max-width: 550px) {
+  /*  -- Whole website -- */
+  .paragraf, .paragraf2 {
+    min-width: 85%;
+  }
+
+  /* --- Pre Footer --- */
+  .preFooter div {
+    margin-bottom: 4%;
+  }
+
+  /*  ---- Footer ---- */
+  footer .firstSectionFooter a, footer .firstSectionFooter p {
+    display: block;
+    margin: 2% 0;
+  }
+  footer .firstSectionFooter span {
+    display: none;
+  }
+  footer a {
+    font-size: 90%;
+  }
+
+  /*  -- Video Hide -- */
+  .videoContent {
+    margin-top: 15% !important;
+  }
+  .videoContent iframe {
+    width: 300px !important;
+    height: 190px !important;
+  }
+}
+/*-------- Boje ------- */
+/*  ------ END Boje -----  */
+/* ------ Transition --------*/
+/*  --- END Transition ---  */
+/*  ------- Linear Gradient -------  */
+/*  ------- END Linear Gradient -------  */
+/*  ------ Display Flex ------- */
+/*  ------ END Display Flex ------- */
+/*  ----- Class for Balloon animation ----- */
+.balloonAnimationAll, .balloonAnimation1, .balloonArticle .balloon-1, .balloonArticle .balloon-4, .balloonArticle .balloon-7, .balloonAnimation2, .balloonArticle .balloon-2, .balloonArticle .balloon-5, .balloonArticle .balloon-8, .balloonAnimation3, .balloonArticle .balloon-3, .balloonArticle .balloon-6, .balloonArticle .balloon-9, .balloonArticle .balloon-10 {
+  position: relative;
+  -webkit-animation-duration: 3s;
+  /* Chrome, Safari, Opera */
+  animation-duration: 3s;
+  -webkit-animation-iteration-count: infinite;
+  /* Chrome, Safari, Opera */
+  animation-iteration-count: infinite;
+}
+
+/* First Animation */
+.balloonAnimation1, .balloonArticle .balloon-1, .balloonArticle .balloon-4, .balloonArticle .balloon-7 {
+  -webkit-animation-name: balloon;
+  /* Chrome, Safari, Opera */
+  animation-name: balloon;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes balloon {
+  0% {
+    left: 0px;
+    top: 0px;
+  }
+
+  25% {
+    left: 4px;
+    top: 0px;
+  }
+
+  50% {
+    left: 7px;
+    top: 3px;
+  }
+
+  75% {
+    left: 0px;
+    top: 7px;
+  }
+
+  100% {
+    left: 0px;
+    top: 0px;
+  }
+}
+/* Standard syntax */
+@keyframes balloon {
+  0% {
+    left: 0px;
+    top: 0px;
+  }
+
+  25% {
+    left: 4px;
+    top: 0px;
+  }
+
+  50% {
+    left: 7px;
+    top: 3px;
+  }
+
+  75% {
+    left: 0px;
+    top: 7px;
+  }
+
+  100% {
+    left: 0px;
+    top: 0px;
+  }
+}
+/* Second Animation */
+.balloonAnimation2, .balloonArticle .balloon-2, .balloonArticle .balloon-5, .balloonArticle .balloon-8 {
+  -webkit-animation-name: balloonTwo;
+  /* Chrome, Safari, Opera */
+  animation-name: balloonTwo;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes balloonTwo {
+  0% {
+    left: 0px;
+    top: 0px;
+  }
+
+  25% {
+    left: 0px;
+    top: 4px;
+  }
+
+  50% {
+    left: 3px;
+    top: 7px;
+  }
+
+  75% {
+    left: 7px;
+    top: 0px;
+  }
+
+  100% {
+    left: 0px;
+    top: 0px;
+  }
+}
+/* Standard syntax */
+@keyframes balloonTwo {
+  0% {
+    left: 0px;
+    top: 0px;
+  }
+
+  25% {
+    left: 0px;
+    top: 4px;
+  }
+
+  50% {
+    left: 3px;
+    top: 7px;
+  }
+
+  75% {
+    left: 7px;
+    top: 0px;
+  }
+
+  100% {
+    left: 0px;
+    top: 0px;
+  }
+}
+/* Third Animation */
+.balloonAnimation3, .balloonArticle .balloon-3, .balloonArticle .balloon-6, .balloonArticle .balloon-9, .balloonArticle .balloon-10 {
+  -webkit-animation-name: balloonThree;
+  /* Chrome, Safari, Opera */
+  animation-name: balloonThree;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes balloonThree {
+  0% {
+    left: 0px;
+    top: 0px;
+  }
+
+  25% {
+    left: 2px;
+    top: 4px;
+  }
+
+  50% {
+    left: 5px;
+    top: 5px;
+  }
+
+  75% {
+    left: 2px;
+    top: 5px;
+  }
+
+  100% {
+    left: 0px;
+    top: 0px;
+  }
+}
+/* Standard syntax */
+@keyframes balloonThree {
+  0% {
+    left: 0px;
+    top: 0px;
+  }
+
+  25% {
+    left: 2px;
+    top: 4px;
+  }
+
+  50% {
+    left: 5px;
+    top: 5px;
+  }
+
+  75% {
+    left: 2px;
+    top: 5px;
+  }
+
+  100% {
+    left: 0px;
+    top: 0px;
+  }
+}
+/*  ------ END Class for Balloon animation ------ */
+@media screen and (max-width: 1000px) {
+  /* ----Whole ----- */
+  p {
+    font-size: 90%;
+  }
+
+  /* ----Header Article ------ */
+  .headerArticle {
+    background: url("../img/headerMainBackgroundPhoneSize.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+  }
+  .headerArticle .fullscreen-bg {
+    display: none;
+  }
+  .headerArticle .weBelieveImg {
+    display: none;
+  }
+  .headerArticle .weBelieveMobile {
+    display: block;
+    width: 53%;
+    margin: 0 auto;
+  }
+  .headerArticle .playVideo {
+    color: #292727;
+    border: 2px solid #292727;
+  }
+
+  /* --- Give monthly ----  */
+  .giveMonthly .monthlyContent {
+    min-width: 60%;
+  }
+  .giveMonthly .monthlyContent .donateBox input {
+    max-height: 40px;
+  }
+  .giveMonthly .monthlyContent .donateBox button {
+    max-height: 40px;
+  }
+
+  /*  ---- One+Two columns ----- */
+  .onePlusTwoColumns .idiLevo, .onePlusTwoColumns .idiDesno {
+    text-align: center;
+  }
+  .onePlusTwoColumns .blueBack {
+    min-width: 100%;
+  }
+  .onePlusTwoColumns .imageBack {
+    min-width: 100%;
+  }
+  .onePlusTwoColumns .rowBlue {
+    display: inline-block !important;
+  }
+
+  /*  ----- Four Columns ------  */
+  .fourColumns {
+    min-width: 95%;
+  }
+  .fourColumns .row a {
+    margin-bottom: 2%;
+  }
+
+  /*  ---- Sponsor Background ---- */
+  .sponsorContent {
+    min-width: 70%;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .weBelieveMobile {
+    display: none;
+  }
+
+  .logoNoText {
+    display: none;
+  }
+}
+@media screen and (max-width: 550px) {
+  /* ---- Give Monthly ---- */
+  .giveMonthly .monthlyContent {
+    min-width: 90%;
+  }
+  .giveMonthly .monthlyContent .donateBox {
+    min-width: 100%;
+    background-color: transparent;
+  }
+  .giveMonthly .monthlyContent .donateBox input {
+    margin: 0 auto;
+    min-width: 95%;
+    max-height: 35px;
+    display: block;
+  }
+  .giveMonthly .monthlyContent .donateBox button {
+    margin: 1% auto;
+    max-height: 35px;
+    min-width: 95%;
+    display: block;
+  }
+
+  /*  -----One+ Two columns ---- */
+  .fightDirty {
+    padding-bottom: 2%;
+  }
+
+  .contentBlueBack {
+    min-width: 90%;
+  }
+  .contentBlueBack a {
+    font-size: 80%;
+  }
+
+  /*  ---- Sponsor Background ---- */
+  .sponsorContent {
+    min-width: 90%;
+  }
+}
+/*  ----- Article Header ------  */
+.headerArticle {
+  text-align: center;
+}
+.headerArticle .weBelieveImg {
+  width: 53%;
+  margin-top: 3%;
+}
+.headerArticle .fullscreen-bg {
+  position: absolute;
+  z-index: -100;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.headerArticle .fullscreen-bg .fullscreen-bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+}
+.headerArticle button {
+  margin-top: 1%;
+  color: white;
+  border: 2px solid white;
+  -webkit-transition: opacity 0.4s ease-out;
+  -moz-transition: opacity 0.4s ease-out;
+  -ms-transition: opacity 0.4s ease-out;
+  -o-transition: opacity 0.4s ease-out;
+  transition: opacity 0.4s ease-out;
+}
+.headerArticle button:hover {
+  opacity: 0.7;
+}
+
+/*  ----- END Article header -----  */
+/*  ------ Give monthly ------  */
+.giveMonthly {
+  background: url("../img/giveMonthlyBackground.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 0;
+  padding-top: 0;
+}
+.giveMonthly .monthlyContent {
+  width: 30%;
+  margin: 0 auto;
+  padding: 10% 0;
+}
+.giveMonthly .monthlyContent p {
+  color: white;
+}
+.giveMonthly .monthlyContent .donateBox {
+  color: white;
+  padding: 5% 0;
+  border-radius: 7px;
+  background-color: rgba(165, 170, 166, 0.8);
+}
+.giveMonthly .monthlyContent .donateBox input {
+  width: 90%;
+  height: 55px;
+}
+.giveMonthly .monthlyContent .donateBox button {
+  height: 55px;
+  width: 45%;
+}
+.giveMonthly .monthlyContent .donateBox a {
+  color: white;
+  -webkit-transition: opacity 0.4s ease-out;
+  -moz-transition: opacity 0.4s ease-out;
+  -ms-transition: opacity 0.4s ease-out;
+  -o-transition: opacity 0.4s ease-out;
+  transition: opacity 0.4s ease-out;
+}
+.giveMonthly .monthlyContent .donateBox a:hover {
+  opacity: 0.7;
+}
+.giveMonthly .monthlyContent .donateBox .linkBank span {
+  display: none;
+  position: absolute;
+  background-color: white;
+  color: green;
+  line-height: 25px;
+  padding: 1%;
+  border-radius: 7px;
+  border: 1px solid green;
+  text-transform: none;
+}
+.giveMonthly .monthlyContent .donateBox .linkBank:hover span {
+  display: block;
+}
+
+.monthlyContentMobile {
+  display: none;
+}
+
+/*  ----- END Give monthly ------ */
+/*  ----- Two columns (100% and prove) ----- */
+.twoColumns {
+  padding-top: 5%;
+  width: 70%;
+  margin: 0 auto;
+}
+.twoColumns .six {
+  margin-top: 4%;
+}
+.twoColumns img {
+  width: 53%;
+}
+.twoColumns .boldP {
+  font-weight: bold;
+}
+.twoColumns a {
+  -webkit-transition: color 0.3s ease-in;
+  -moz-transition: color 0.3s ease-in;
+  -ms-transition: color 0.3s ease-in;
+  -o-transition: color 0.3s ease-in;
+  transition: color 0.3s ease-in;
+  color: #369ff4;
+  font-weight: bold;
+}
+.twoColumns a:hover {
+  color: #70bbf7;
+}
+
+/*  ----- END Two columns (100% and prove) -------- */
+/*  ---- One+Two columns ----- */
+.onePlusTwoColumns {
+  max-width: 100%;
+  width: auto;
+  margin-top: 7%;
+}
+.onePlusTwoColumns .yellowBack {
+  padding: 2% 0 1% 0;
+  background-color: #efd213;
+}
+.onePlusTwoColumns .yellowBack a {
+  font-weight: bold;
+  color: #292727;
+  border: 2px solid #292727;
+  -webkit-transition: opacity 0.4s ease-out;
+  -moz-transition: opacity 0.4s ease-out;
+  -ms-transition: opacity 0.4s ease-out;
+  -o-transition: opacity 0.4s ease-out;
+  transition: opacity 0.4s ease-out;
+}
+.onePlusTwoColumns .yellowBack a:hover {
+  opacity: 0.7;
+}
+.onePlusTwoColumns .blueBack {
+  width: 50%;
+}
+.onePlusTwoColumns .blueBack .contentBlueBack {
+  margin: 7% auto;
+  width: 60%;
+  background-color: #369ff4;
+}
+.onePlusTwoColumns .blueBack .contentBlueBack h4 {
+  color: white;
+  font-weight: bold;
+}
+.onePlusTwoColumns .blueBack .contentBlueBack p {
+  text-align: justify;
+  color: white;
+}
+.onePlusTwoColumns .blueBack .contentBlueBack a {
+  border: 2px solid white;
+}
+.onePlusTwoColumns .imageBack {
+  background-color: white;
+  background: url("../img/cleanWaterImage.jpg") no-repeat;
+  background-size: cover;
+  width: 50%;
+}
+.onePlusTwoColumns .imageBack .imageBackContent {
+  padding: 35% 0;
+}
+.onePlusTwoColumns .rowBlue {
+  background-color: #369ff4;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+
+/*  ---- END One+Two columns ------ */
+/*  ------ Four columns ------- */
+.fourColumns {
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 7%;
+}
+.fourColumns .columns {
+  border: 1px solid lightgray;
+  border-radius: 8px;
+}
+.fourColumns .hoverA {
+  position: relative;
+}
+.fourColumns .hoverA img {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+.fourColumns .hoverA .didItColor {
+  color: #a8a8a8;
+}
+.fourColumns .hoverA .learnMoreTxt {
+  border-radius: 8px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  opacity: 0;
+  -webkit-transition: opacity 0.3s ease-out;
+  -moz-transition: opacity 0.3s ease-out;
+  -ms-transition: opacity 0.3s ease-out;
+  -o-transition: opacity 0.3s ease-out;
+  transition: opacity 0.3s ease-out;
+}
+.fourColumns .hoverA .learnMoreTxt:hover {
+  opacity: 1;
+  border: none;
+}
+.fourColumns .hoverA .learnMoreTxt p {
+  position: relative;
+  top: 40%;
+  color: white;
+}
+
+/*  ----- END Four Columns */
+/*  ----- Balloon ----- */
+.balloonArticle {
+  margin-top: 3%;
+  max-height: 370px;
+  overflow: hidden;
+}
+.balloonArticle .balloon-shape {
+  fill: rgba(255, 0, 0, 0.6);
+}
+.balloonArticle .zutiShape {
+  fill: rgba(255, 255, 0, 0.8);
+}
+.balloonArticle .plaviShape {
+  fill: rgba(0, 0, 255, 0.6);
+}
+.balloonArticle .balloon-2 {
+  margin-left: -50px;
+}
+.balloonArticle .balloon-5 {
+  margin-left: -100px;
+}
+.balloonArticle .balloon-6 {
+  margin-left: -100px;
+}
+.balloonArticle .balloon-10 {
+  margin-left: -70px;
+}
+
+/*  ----- END Balloon ----- */
+/*  ---- Sponsor Background ---- */
+.sponsorArticle {
+  background: url("../img/sponsorBackground.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.sponsorArticle .sponsorContent {
+  width: 35%;
+  margin: 0 auto;
+  padding: 10% 0;
+}
+.sponsorArticle .sponsorContent h4, .sponsorArticle .sponsorContent p, .sponsorArticle .sponsorContent a {
+  color: white;
+}
+.sponsorArticle .sponsorContent .mailSponsor {
+  -webkit-transition: opacity 0.3s ease-out;
+  -moz-transition: opacity 0.3s ease-out;
+  -ms-transition: opacity 0.3s ease-out;
+  -o-transition: opacity 0.3s ease-out;
+  transition: opacity 0.3s ease-out;
+}
+.sponsorArticle .sponsorContent .mailSponsor:hover {
+  opacity: 0.7;
+}
+
+/*  ------ END Sponsor Background -------- */

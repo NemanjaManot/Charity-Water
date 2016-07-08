@@ -1,0 +1,146 @@
+ /*-------- Boje ------- */
+
+$yellow: #efd213; 
+$blue: #369ff4;
+$blueHover: #70bbf7;
+$lightGray: #71716c;
+$textColor: #292727;
+$textColorDarker: #151414;
+
+$blueLight: #8ed4cc;
+$redHadjara: #fa575d;
+
+/*  ------ END Boje -----  */
+
+
+
+/* ------ Transition --------*/
+@mixin transition($var...) {
+	-webkit-transition: $var;
+	-moz-transition: $var;
+	-ms-transition: $var;
+	-o-transition: $var; 
+	transition: $var;
+}
+/*  --- END Transition ---  */
+
+
+
+
+
+/*  ------- Linear Gradient -------  */
+
+@mixin background-linear-gradient($var...) {
+	background: -webkit-linear-gradient($var);
+	background: -o-linear-gradient($var); 
+	background: -moz-linear-gradient($var); 
+	background: linear-gradient($var); 
+}
+
+/*  ------- END Linear Gradient -------  */
+
+
+
+/*  ------ Display Flex ------- */
+
+@mixin display-flex() {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex; 
+	display: flex; 
+}
+/*  ------ END Display Flex ------- */
+
+
+/*  ----- Class for Balloon animation ----- */
+
+
+.balloonAnimationAll {
+	position: relative;
+	-webkit-animation-duration: 3s; /* Chrome, Safari, Opera */
+	animation-duration: 3s;
+	-webkit-animation-iteration-count: infinite; /* Chrome, Safari, Opera */
+	animation-iteration-count: infinite;
+}
+
+	/* First Animation */
+		.balloonAnimation1 {
+			@extend .balloonAnimationAll ;
+			-webkit-animation-name: balloon; /* Chrome, Safari, Opera */
+			animation-name: balloon;
+		}
+
+		/* Chrome, Safari, Opera */
+		@-webkit-keyframes balloon {
+		    0%   {left:0px; top:0px;}
+		    25%  {left:4px; top:0px;}
+		    50%  {left:7px; top:3px;}
+		    75%  {left:0px; top:7px;}
+		    100% {left:0px; top:0px;} 
+		}
+
+		/* Standard syntax */
+		@keyframes balloon {
+		    0%   {left:0px; top:0px;}
+		    25%  {left:4px; top:0px;}
+		    50%  {left:7px; top:3px;}
+		    75%  {left:0px; top:7px;}
+		    100% {left:0px; top:0px;} 
+		}
+
+
+
+	/* Second Animation */
+		.balloonAnimation2 {
+			@extend .balloonAnimationAll ;
+			-webkit-animation-name: balloonTwo; /* Chrome, Safari, Opera */
+			animation-name: balloonTwo;
+		}
+
+		/* Chrome, Safari, Opera */
+		@-webkit-keyframes balloonTwo {
+		    0%   {left:0px; top:0px;}
+		    25%  {left:0px; top:4px;}
+		    50%  {left:3px; top:7px;}
+		    75%  {left:7px; top:0px;}
+		    100% {left:0px; top:0px;}
+		}
+
+		/* Standard syntax */
+		@keyframes balloonTwo {
+		    0%   {left:0px; top:0px;}
+		    25%  {left:0px; top:4px;}
+		    50%  {left:3px; top:7px;}
+		    75%  {left:7px; top:0px;}
+		    100% {left:0px; top:0px;}
+		}
+
+	/* Third Animation */
+		.balloonAnimation3 {
+			@extend .balloonAnimationAll ;
+			-webkit-animation-name: balloonThree; /* Chrome, Safari, Opera */
+			animation-name: balloonThree;
+		}
+
+		/* Chrome, Safari, Opera */
+		@-webkit-keyframes balloonThree {
+		    0%   {left:0px; top:0px;}
+		    25%  {left:2px; top:4px;}
+		    50%  {left:5px; top:5px;}
+		    75%  {left:2px; top:5px;}
+		    100% {left:0px; top:0px;}
+		}
+
+		/* Standard syntax */
+		@keyframes balloonThree {
+		    0%   {left:0px; top:0px;}
+		    25%  {left:2px; top:4px;}
+		    50%  {left:5px; top:5px;}
+		    75%  {left:2px; top:5px;}
+		    100% {left:0px; top:0px;}
+		}
+
+
+
+/*  ------ END Class for Balloon animation ------ */

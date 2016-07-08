@@ -1,0 +1,105 @@
+@import "variables";
+
+@media screen and (max-width: 1000px) {
+
+	/* -- Whole page -- */
+	.logoNoText {
+		min-width: 20%;
+	}
+
+	/* --How we work -- */
+	.howWeWork {
+		h2 {
+			padding-top: 5%;
+		}
+		.row {
+			min-width: 90%;
+		}
+	}
+
+
+	/* -- Our Progress -- */
+	.ourProgress {
+		.row {
+			min-width: 90%;
+			.progressContent {
+				min-width: 100%;
+			}	
+		}
+	}
+
+	/* --Stories-- */
+	.stories {
+		h2 {
+			padding-top: 5%;
+		}
+		.row {
+			min-width: 95%;
+		}
+	}
+
+}
+
+
+
+
+@media screen and (max-width: 550px) {
+
+	/* -- Whole page -- */
+	.logoNoText {
+		min-width: 27%;
+	}
+
+
+	/* --How we work -- */
+	.howWeWork {
+		p {
+			padding-bottom: 5%;
+		}
+		.row {
+			min-width: auto;
+			a {
+				margin-bottom: 2%;
+			}
+		}
+	}
+
+
+	/* -- Our Progress -- */
+
+	.ourProgress {
+	.row {
+		.three {
+			border-bottom: 1px solid #dfdfd7;
+			.circle {
+				display: block;
+				max-width: 1%;
+				margin: 0 auto;
+			}
+		}	
+	}
+}
+
+	/*  -- What We Work -- */
+	.whereWork {
+		padding-top: 15%;
+		img {
+			min-width: 100%;
+		}
+	}
+
+
+	/* --Stories -- */
+	.stories {
+		p {
+			padding-bottom: 5%;
+		}
+		.row {
+			min-width: auto;
+			a {
+				margin-bottom: 2%;
+			}
+		}
+	}
+
+}

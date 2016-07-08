@@ -1,0 +1,107 @@
+@import "variables";
+
+@media screen and (max-width: 1000px) {
+
+	/* -- Whole page -- */
+	.logoNoText {
+		min-width: 20%;
+	}
+
+	/*  -- Header Article -- */
+
+	.contentHeader {
+		padding-top: 5% !important;
+		min-width: 80%;
+		h1 {
+			font-size: 180%;
+		}
+	}
+
+	/*  -- Three Columns Image -- */
+	.threeColumns {
+		min-width: 90%;
+	}
+
+}
+
+
+@media screen and (max-width: 750px) {
+
+	/*  -- Header Article -- */
+	.headerArticle {
+		background: url("../img/aboutUs/aboutUsBack.jpg") no-repeat !important;
+		background-size: cover !important;
+		.contentHeader {
+			min-width: 90%;
+			a {
+				max-width: 50%;
+				margin: 0 auto !important;
+				display: block;
+				margin-bottom: 1% !important;
+			}
+		}
+	}
+
+	/*  -- Three Columns Image -- */
+
+	.threeColumns {
+		min-width: 98%;
+		.row {
+			padding-bottom: 13%;
+		}
+	}
+
+	/*  -- Background: Read blog -- */
+
+	.contentReadBlog {
+		min-width: 80%;
+	}
+
+	/*  -- Purchase -- */
+
+	.purchase {
+		img {
+			min-width: 20%;
+		}
+	}
+
+}
+
+
+
+
+@media screen and (max-width: 550px) {
+
+	/* -- Whole page -- */
+	.logoNoText {
+		min-width: 27%;
+	}
+
+	/*  -- Three Columns Image -- */
+	.threeColumns {
+		min-width: 90%;
+		.row {
+			display: inline !important;
+			padding-bottom: 0;
+		}
+		.four {
+			padding-bottom: 15%;
+		}
+	}
+
+
+	/*  -- Background: Hiring -- */
+	
+	.contentHiring {
+		min-width: 90%;
+		h4 {
+			color: white;
+		}
+		a {
+			display: block !important;
+			max-width: 50%;
+			margin: 1% auto !important;
+		}
+	}
+
+}
