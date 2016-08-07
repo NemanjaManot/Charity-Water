@@ -775,209 +775,6 @@ footer .socialIcon a {
   clear: both;
 }
 
-/*-------- Boje ------- */
-/*  ------ END Boje -----  */
-/* ------ Transition --------*/
-/*  --- END Transition ---  */
-/*  ------- Linear Gradient -------  */
-/*  ------- END Linear Gradient -------  */
-/*  ------ Display Flex ------- */
-/*  ------ END Display Flex ------- */
-/*  ----- Class for Balloon animation ----- */
-.balloonAnimationAll, .balloonAnimation1, .balloonAnimation2, .balloonAnimation3 {
-  position: relative;
-  -webkit-animation-duration: 3s;
-  /* Chrome, Safari, Opera */
-  animation-duration: 3s;
-  -webkit-animation-iteration-count: infinite;
-  /* Chrome, Safari, Opera */
-  animation-iteration-count: infinite;
-}
-
-/* First Animation */
-.balloonAnimation1 {
-  -webkit-animation-name: balloon;
-  /* Chrome, Safari, Opera */
-  animation-name: balloon;
-}
-
-/* Chrome, Safari, Opera */
-@-webkit-keyframes balloon {
-  0% {
-    left: 0px;
-    top: 0px;
-  }
-
-  25% {
-    left: 4px;
-    top: 0px;
-  }
-
-  50% {
-    left: 7px;
-    top: 3px;
-  }
-
-  75% {
-    left: 0px;
-    top: 7px;
-  }
-
-  100% {
-    left: 0px;
-    top: 0px;
-  }
-}
-/* Standard syntax */
-@keyframes balloon {
-  0% {
-    left: 0px;
-    top: 0px;
-  }
-
-  25% {
-    left: 4px;
-    top: 0px;
-  }
-
-  50% {
-    left: 7px;
-    top: 3px;
-  }
-
-  75% {
-    left: 0px;
-    top: 7px;
-  }
-
-  100% {
-    left: 0px;
-    top: 0px;
-  }
-}
-/* Second Animation */
-.balloonAnimation2 {
-  -webkit-animation-name: balloonTwo;
-  /* Chrome, Safari, Opera */
-  animation-name: balloonTwo;
-}
-
-/* Chrome, Safari, Opera */
-@-webkit-keyframes balloonTwo {
-  0% {
-    left: 0px;
-    top: 0px;
-  }
-
-  25% {
-    left: 0px;
-    top: 4px;
-  }
-
-  50% {
-    left: 3px;
-    top: 7px;
-  }
-
-  75% {
-    left: 7px;
-    top: 0px;
-  }
-
-  100% {
-    left: 0px;
-    top: 0px;
-  }
-}
-/* Standard syntax */
-@keyframes balloonTwo {
-  0% {
-    left: 0px;
-    top: 0px;
-  }
-
-  25% {
-    left: 0px;
-    top: 4px;
-  }
-
-  50% {
-    left: 3px;
-    top: 7px;
-  }
-
-  75% {
-    left: 7px;
-    top: 0px;
-  }
-
-  100% {
-    left: 0px;
-    top: 0px;
-  }
-}
-/* Third Animation */
-.balloonAnimation3 {
-  -webkit-animation-name: balloonThree;
-  /* Chrome, Safari, Opera */
-  animation-name: balloonThree;
-}
-
-/* Chrome, Safari, Opera */
-@-webkit-keyframes balloonThree {
-  0% {
-    left: 0px;
-    top: 0px;
-  }
-
-  25% {
-    left: 2px;
-    top: 4px;
-  }
-
-  50% {
-    left: 5px;
-    top: 5px;
-  }
-
-  75% {
-    left: 2px;
-    top: 5px;
-  }
-
-  100% {
-    left: 0px;
-    top: 0px;
-  }
-}
-/* Standard syntax */
-@keyframes balloonThree {
-  0% {
-    left: 0px;
-    top: 0px;
-  }
-
-  25% {
-    left: 2px;
-    top: 4px;
-  }
-
-  50% {
-    left: 5px;
-    top: 5px;
-  }
-
-  75% {
-    left: 2px;
-    top: 5px;
-  }
-
-  100% {
-    left: 0px;
-    top: 0px;
-  }
-}
-/*  ------ END Class for Balloon animation ------ */
 @media screen and (max-width: 1000px) {
   /* ----Whole ----- */
   p {
@@ -989,12 +786,12 @@ footer .socialIcon a {
   }
 
   /*  -- Video Hide -- */
-  .videoContent {
-    margin-top: 7% !important;
+  .videoHide .videoContent {
+    margin-top: 7%;
   }
-  .videoContent iframe {
-    width: 700px !important;
-    height: 440px !important;
+  .videoHide .videoContent iframe {
+    width: 700px;
+    height: 440px;
   }
 
   /* ----Header Article ------ */
@@ -1024,12 +821,12 @@ footer .socialIcon a {
 }
 @media screen and (max-width: 750px) {
   /*  -- Video Hide -- */
-  .videoContent {
-    margin-top: 10% !important;
+  .videoHide .videoContent {
+    margin-top: 10%;
   }
-  .videoContent iframe {
-    width: 540px !important;
-    height: 350px !important;
+  .videoHide .videoContent iframe {
+    width: 540px;
+    height: 350px;
   }
 }
 @media screen and (max-width: 550px) {
@@ -1056,217 +853,14 @@ footer .socialIcon a {
   }
 
   /*  -- Video Hide -- */
-  .videoContent {
-    margin-top: 15% !important;
+  .videoHide .videoContent {
+    margin-top: 15%;
   }
-  .videoContent iframe {
-    width: 300px !important;
-    height: 190px !important;
-  }
-}
-/*-------- Boje ------- */
-/*  ------ END Boje -----  */
-/* ------ Transition --------*/
-/*  --- END Transition ---  */
-/*  ------- Linear Gradient -------  */
-/*  ------- END Linear Gradient -------  */
-/*  ------ Display Flex ------- */
-/*  ------ END Display Flex ------- */
-/*  ----- Class for Balloon animation ----- */
-.balloonAnimationAll, .balloonAnimation1, .balloonAnimation2, .balloonAnimation3 {
-  position: relative;
-  -webkit-animation-duration: 3s;
-  /* Chrome, Safari, Opera */
-  animation-duration: 3s;
-  -webkit-animation-iteration-count: infinite;
-  /* Chrome, Safari, Opera */
-  animation-iteration-count: infinite;
-}
-
-/* First Animation */
-.balloonAnimation1 {
-  -webkit-animation-name: balloon;
-  /* Chrome, Safari, Opera */
-  animation-name: balloon;
-}
-
-/* Chrome, Safari, Opera */
-@-webkit-keyframes balloon {
-  0% {
-    left: 0px;
-    top: 0px;
-  }
-
-  25% {
-    left: 4px;
-    top: 0px;
-  }
-
-  50% {
-    left: 7px;
-    top: 3px;
-  }
-
-  75% {
-    left: 0px;
-    top: 7px;
-  }
-
-  100% {
-    left: 0px;
-    top: 0px;
+  .videoHide .videoContent iframe {
+    width: 300px;
+    height: 190px;
   }
 }
-/* Standard syntax */
-@keyframes balloon {
-  0% {
-    left: 0px;
-    top: 0px;
-  }
-
-  25% {
-    left: 4px;
-    top: 0px;
-  }
-
-  50% {
-    left: 7px;
-    top: 3px;
-  }
-
-  75% {
-    left: 0px;
-    top: 7px;
-  }
-
-  100% {
-    left: 0px;
-    top: 0px;
-  }
-}
-/* Second Animation */
-.balloonAnimation2 {
-  -webkit-animation-name: balloonTwo;
-  /* Chrome, Safari, Opera */
-  animation-name: balloonTwo;
-}
-
-/* Chrome, Safari, Opera */
-@-webkit-keyframes balloonTwo {
-  0% {
-    left: 0px;
-    top: 0px;
-  }
-
-  25% {
-    left: 0px;
-    top: 4px;
-  }
-
-  50% {
-    left: 3px;
-    top: 7px;
-  }
-
-  75% {
-    left: 7px;
-    top: 0px;
-  }
-
-  100% {
-    left: 0px;
-    top: 0px;
-  }
-}
-/* Standard syntax */
-@keyframes balloonTwo {
-  0% {
-    left: 0px;
-    top: 0px;
-  }
-
-  25% {
-    left: 0px;
-    top: 4px;
-  }
-
-  50% {
-    left: 3px;
-    top: 7px;
-  }
-
-  75% {
-    left: 7px;
-    top: 0px;
-  }
-
-  100% {
-    left: 0px;
-    top: 0px;
-  }
-}
-/* Third Animation */
-.balloonAnimation3 {
-  -webkit-animation-name: balloonThree;
-  /* Chrome, Safari, Opera */
-  animation-name: balloonThree;
-}
-
-/* Chrome, Safari, Opera */
-@-webkit-keyframes balloonThree {
-  0% {
-    left: 0px;
-    top: 0px;
-  }
-
-  25% {
-    left: 2px;
-    top: 4px;
-  }
-
-  50% {
-    left: 5px;
-    top: 5px;
-  }
-
-  75% {
-    left: 2px;
-    top: 5px;
-  }
-
-  100% {
-    left: 0px;
-    top: 0px;
-  }
-}
-/* Standard syntax */
-@keyframes balloonThree {
-  0% {
-    left: 0px;
-    top: 0px;
-  }
-
-  25% {
-    left: 2px;
-    top: 4px;
-  }
-
-  50% {
-    left: 5px;
-    top: 5px;
-  }
-
-  75% {
-    left: 2px;
-    top: 5px;
-  }
-
-  100% {
-    left: 0px;
-    top: 0px;
-  }
-}
-/*  ------ END Class for Balloon animation ------ */
 @media screen and (max-width: 1000px) {
   /* -- Whole page -- */
   .logoNoText {
@@ -1274,11 +868,11 @@ footer .socialIcon a {
   }
 
   /*  -- Header Article -- */
-  .contentHeader {
-    padding-top: 5% !important;
+  .headerArticle .contentHeader {
+    padding-top: 5%;
     min-width: 80%;
   }
-  .contentHeader h1 {
+  .headerArticle .contentHeader h1 {
     font-size: 180%;
   }
 
@@ -1289,18 +883,18 @@ footer .socialIcon a {
 }
 @media screen and (max-width: 750px) {
   /*  -- Header Article -- */
-  .headerArticle {
-    background: url("../img/aboutUs/aboutUsBack.jpg") no-repeat !important;
-    background-size: cover !important;
+  .wrapper .headerArticle {
+    background: url("../img/aboutUs/aboutUsBack.jpg") no-repeat;
+    background-size: cover;
   }
-  .headerArticle .contentHeader {
+  .wrapper .headerArticle .contentHeader {
     min-width: 90%;
   }
-  .headerArticle .contentHeader a {
+  .wrapper .headerArticle .contentHeader a {
     max-width: 50%;
-    margin: 0 auto !important;
+    margin: 0 auto;
     display: block;
-    margin-bottom: 1% !important;
+    margin-bottom: 1%;
   }
 
   /*  -- Three Columns Image -- */
@@ -1328,28 +922,28 @@ footer .socialIcon a {
   }
 
   /*  -- Three Columns Image -- */
-  .threeColumns {
+  .wrapper .threeColumns {
     min-width: 90%;
   }
-  .threeColumns .row {
-    display: inline !important;
+  .wrapper .threeColumns .row {
+    display: inline;
     padding-bottom: 0;
   }
-  .threeColumns .four {
+  .wrapper .threeColumns .four {
     padding-bottom: 15%;
   }
 
   /*  -- Background: Hiring -- */
-  .contentHiring {
+  .wrapper .hiring .contentHiring {
     min-width: 90%;
   }
-  .contentHiring h4 {
+  .wrapper .hiring .contentHiring h4 {
     color: white;
   }
-  .contentHiring a {
-    display: block !important;
+  .wrapper .hiring .contentHiring a {
+    display: block;
     max-width: 50%;
-    margin: 1% auto !important;
+    margin: 1% auto;
   }
 }
 /*  ------ Whole page ----  */
