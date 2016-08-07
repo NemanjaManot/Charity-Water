@@ -937,6 +937,25 @@ footer .socialIcon a {
     margin-bottom: 2%;
   }
 }
+/*  --- Whole page--- */
+.hoverOpacityDiv {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1));
+  opacity: 0;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -ms-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+.hoverOpacityDiv:hover {
+  opacity: 1;
+}
+
 /*  ------- Header Article ------  */
 .headerArticle .logoNoText {
   float: left;
@@ -975,31 +994,22 @@ footer .socialIcon a {
   font-weight: bold;
 }
 .howWeWork .approach {
-  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.75)), url("../img/ourWork/howWeWork1.jpg") no-repeat;
+  position: relative;
+  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("../img/ourWork/howWeWork1.jpg") no-repeat;
   background-size: 100% 100%;
   padding: 8% 0;
-}
-.howWeWork .approach:hover {
-  background: linear-gradient(rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.4)), url("../img/ourWork/howWeWork1.jpg") no-repeat;
-  background-size: 100% 100%;
 }
 .howWeWork .solutions {
-  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.75)), url("../img/ourWork/howWeWork2.jpg") no-repeat;
+  position: relative;
+  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("../img/ourWork/howWeWork2.jpg") no-repeat;
   background-size: 100% 100%;
   padding: 8% 0;
-}
-.howWeWork .solutions:hover {
-  background: linear-gradient(rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.4)), url("../img/ourWork/howWeWork2.jpg") no-repeat;
-  background-size: 100% 100%;
 }
 .howWeWork .partners {
-  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.75)), url("../img/ourWork/howWeWork3.jpg") no-repeat;
+  position: relative;
+  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("../img/ourWork/howWeWork3.jpg") no-repeat;
   background-size: 100% 100%;
   padding: 8% 0;
-}
-.howWeWork .partners:hover {
-  background: linear-gradient(rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.4)), url("../img/ourWork/howWeWork3.jpg") no-repeat;
-  background-size: 100% 100%;
 }
 
 /*  ----- END How We Work ------ */
@@ -1060,31 +1070,22 @@ footer .socialIcon a {
   font-weight: bold;
 }
 .stories .president {
-  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.75)), url("../img/ourWork/stories1.jpg") no-repeat;
+  position: relative;
+  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("../img/ourWork/stories1.jpg") no-repeat;
   background-size: 100% 100%;
   padding: 8% 0;
-}
-.stories .president:hover {
-  background: linear-gradient(rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.4)), url("../img/ourWork/stories1.jpg") no-repeat;
-  background-size: 100% 100%;
 }
 .stories .doctor {
-  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.75)), url("../img/ourWork/stories2.jpg") no-repeat;
+  position: relative;
+  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("../img/ourWork/stories2.jpg") no-repeat;
   background-size: 100% 100%;
   padding: 8% 0;
-}
-.stories .doctor:hover {
-  background: linear-gradient(rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.4)), url("../img/ourWork/stories2.jpg") no-repeat;
-  background-size: 100% 100%;
 }
 .stories .desert {
-  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.75)), url("../img/ourWork/stories3.jpg") no-repeat;
+  position: relative;
+  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("../img/ourWork/stories3.jpg") no-repeat;
   background-size: 100% 100%;
   padding: 8% 0;
-}
-.stories .desert:hover {
-  background: linear-gradient(rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.4)), url("../img/ourWork/stories3.jpg") no-repeat;
-  background-size: 100% 100%;
 }
 
 /* ---- END Stories ----- */
