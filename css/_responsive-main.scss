@@ -1,5 +1,3 @@
-@import "variables";
-
 @media screen and (max-width: 1000px) {
 
 	/* ----Whole ----- */
@@ -47,19 +45,21 @@
 	}
 
 	/*  ---- One+Two columns ----- */
-	.onePlusTwoColumns {
-		.idiLevo, .idiDesno {
-			text-align: center;
+	.wrapper {
+		.onePlusTwoColumns {
+			.idiLevo, .idiDesno {
+				text-align: center;
+			}
+			.blueBack {
+				min-width: 100%;
+			}
+			.imageBack {
+				min-width: 100%;
+			}
+		 	.rowBlue {
+				display: inline-block;
+			} 
 		}
-		.blueBack {
-			min-width: 100%;
-		}
-		.imageBack {
-			min-width: 100%;
-		}
-	 	.rowBlue {
-			display: inline-block !important;
-		} 
 	}
 
 	/*  ----- Four Columns ------  */
